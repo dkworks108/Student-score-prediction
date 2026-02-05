@@ -1,0 +1,8 @@
+.vscode/
+area52/
+ml_env/
+area_broken/
+area_broken_backup/
+__pycache__/
+*.pyc
+
