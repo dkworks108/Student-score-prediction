@@ -5,17 +5,19 @@ import os
 
 app = Flask(__name__, template_folder="../templates")
 
-# Load model
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "student_score_model.pkl")
+# Load model safely
+BASE_DIR = os.path.dirname(__file__)
+MODEL_PATH = os.path.join(BASE_DIR, "..", "student_score_model.pkl")
+
 model = joblib.load(MODEL_PATH)
 
 
 @app.route("/")
 def home():
-    return "Student Score Prediction API is running on Vercel"
+    return "Student Score Prediction API is running"
 
 
-@app.route("/home")
+@app.route("/ui")
 def ui():
     return render_template("index.html")
 
@@ -40,8 +42,3 @@ def predict():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 400
-
-
-# IMPORTANT: Vercel needs this
-def handler(request):
-    return app(request.environ, start_response=lambda *args: None)
