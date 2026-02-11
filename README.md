@@ -30,7 +30,7 @@ The dataset consists of student records featuring the following attributes:
 **Input Features:**
 * `hours_studied`: Total number of hours dedicated to studying.
 * `sleep_hours`: Average daily sleep duration.
-* `attendance_percent`: Percentage of classes attended.
+* `attendance_percent`: Percentage of the classes attended.
 * `previous_scores`: Numerical results from prior examinations.
 
 **Target Variable:**
