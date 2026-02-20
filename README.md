@@ -7,7 +7,6 @@ The project encompasses:
 * Machine Learning model development
 * Backend API development using Flask
 * Frontend User Interface design
-* Cloud deployment via Vercel
 
 **Live Application URL:** [https://student-score-prediction-beta.vercel.app/ui](https://student-score-prediction-beta.vercel.app/ui)
 
