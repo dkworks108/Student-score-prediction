@@ -98,7 +98,7 @@ The interface is built with standard web technologies to ensure accessibility an
 ### Key Features:
 * Mobile-responsive layout for cross-device compatibility.
 * Validation for input fields.
-* Real-time result rendering.
+* Real-time result are rendering.
 * One-click reset functionality.
 
 ---
