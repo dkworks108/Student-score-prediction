@@ -66,7 +66,7 @@ The backend serves as the bridge between the trained model and the user interfac
 #### 2. User Interface
 * **Method:** `GET`
 * **Endpoint:** `/ui`
-* **Description:** Renders the frontend web application.
+* **Description:** Renders the frontend website application.
 
 #### 3. Prediction Engine
 * **Method:** `POST`
