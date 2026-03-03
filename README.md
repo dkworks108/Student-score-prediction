@@ -22,7 +22,7 @@ The objective of this project is to provide an accurate prediction of a student'
 
 ---
 
-## Dataset Description
+## Dataset Description IS
 
 The dataset consists of student records featuring the following attributes:
 
