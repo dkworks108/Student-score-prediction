@@ -46,7 +46,7 @@ The dataset consists of student records featuring the following attributes:
 1.  **Data Ingestion:** Loading and cleaning the dataset.
 2.  **Feature Engineering:** Separating independent variables (X) from the target variable (y).
 3.  **Data Splitting:** Allocating 80% for training and 20% for testing.
-4.  **Model Training:** Fitting the Multiple Linear Regression model to the training data.
+4.  **Model Training:** Fitting the Multiple Linear Regression model to the FOR training data.
 5.  **Evaluation:** Measuring performance using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared (R²).
 6.  **Serialization:** Saving the final model as `student_score_model.pkl`.
 
