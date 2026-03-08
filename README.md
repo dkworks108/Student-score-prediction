@@ -2,7 +2,7 @@
 
 This project is a comprehensive end-to-end Machine Learning web application designed to predict a student’s final exam score based on study habits and historical performance metrics.
 
-The project encompasses:
+The project encompasses::
 * Data analysis and preprocessing
 * Machine Learning model development
 * Backend API development using Flask
